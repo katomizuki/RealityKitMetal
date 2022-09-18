@@ -15,6 +15,8 @@
 		D3BE717D28D6FEA7006DB1EA /* RealityKitMetalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE717C28D6FEA7006DB1EA /* RealityKitMetalTests.swift */; };
 		D3BE718728D6FEA7006DB1EA /* RealityKitMetalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE718628D6FEA7006DB1EA /* RealityKitMetalUITests.swift */; };
 		D3BE718928D6FEA7006DB1EA /* RealityKitMetalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE718828D6FEA7006DB1EA /* RealityKitMetalUITestsLaunchTests.swift */; };
+		D3BE719628D6FF0F006DB1EA /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = D3BE719528D6FF0F006DB1EA /* Shader.metal */; };
+		D3BE719828D70152006DB1EA /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE719728D70152006DB1EA /* CustomARView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		D3BE718228D6FEA7006DB1EA /* RealityKitMetalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealityKitMetalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3BE718628D6FEA7006DB1EA /* RealityKitMetalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityKitMetalUITests.swift; sourceTree = "<group>"; };
 		D3BE718828D6FEA7006DB1EA /* RealityKitMetalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityKitMetalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D3BE719528D6FF0F006DB1EA /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
+		D3BE719728D70152006DB1EA /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +102,11 @@
 			children = (
 				D3BE716928D6FEA5006DB1EA /* AppDelegate.swift */,
 				D3BE716B28D6FEA5006DB1EA /* ContentView.swift */,
+				D3BE719728D70152006DB1EA /* CustomARView.swift */,
 				D3BE716D28D6FEA5006DB1EA /* Experience.rcproject */,
 				D3BE716F28D6FEA6006DB1EA /* Assets.xcassets */,
 				D3BE717128D6FEA6006DB1EA /* Preview Content */,
+				D3BE719528D6FF0F006DB1EA /* Shader.metal */,
 			);
 			path = RealityKitMetal;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3BE719828D70152006DB1EA /* CustomARView.swift in Sources */,
+				D3BE719628D6FF0F006DB1EA /* Shader.metal in Sources */,
 				D3BE716C28D6FEA5006DB1EA /* ContentView.swift in Sources */,
 				D3BE716A28D6FEA5006DB1EA /* AppDelegate.swift in Sources */,
 				D3BE716E28D6FEA5006DB1EA /* Experience.rcproject in Sources */,
